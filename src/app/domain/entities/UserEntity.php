@@ -1,6 +1,6 @@
 <?php
 
-final class User {
+final class UserEntity {
 
     /**
      *

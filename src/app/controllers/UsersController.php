@@ -11,6 +11,9 @@ class UsersController extends ControllerBase
      */
     public function indexAction()
     {
+        // tugas controller mendapat use case passing ke response
+        // dependency injection dari repositoryinterface sama usecaseinterface
+    
         $this->persistent->parameters = null;
     }
 

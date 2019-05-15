@@ -1,6 +1,6 @@
 <?php
 
-interface UserRepository {
+interface UserRepositoryInterface {
    
     public function findAll();
     public function findFirst($parameters = null);
